@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+canvas {
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#roadCanvas {
+    background-color: #dcdde1; /* Light grey road */
+    width: 300px;
+}
+
+#networkCanvas {
+    background-color: #000000; /* Dark background for network */
+    width: 500px;
+}
